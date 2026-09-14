@@ -6,14 +6,14 @@
     <title id="page-title">Astroluv | Seanno's Day</title>
     
     <meta property="og:title" content="Astroluv | Seanno's Day">
-    <meta property="og:description" content="written in the stars, built for the main character.">
-    <meta property="og:image" content="https://by-luneva.github.io/Mily/">
-    <meta property="og:url" content="https://by-luneva.github.io/astroluv/">
+    <meta property="og:description" content="Sebuah ruang kecil penuh bintang yang aku siapkan khusus untuk merayakan hari spesialmu.">
+    <meta property="og:image" content="https://by-luneva.github.io/Mily/thumbnail.png?v=3">
+    <meta property="og:url" content="https://by-luneva.github.io/Mily/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Astroluv | Seanno's Day">
-    <meta name="twitter:description" content="written in the stars, built for the main character.">
-    <meta name="twitter:image" content="https://by-luneva.github.io/Mily/">
+    <meta name="twitter:description" content="Sebuah ruang kecil penuh bintang yang aku siapkan khusus untuk merayakan hari spesialmu.">
+    <meta name="twitter:image" content="https://by-luneva.github.io/Mily/thumbnail.png?v=3">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -282,7 +282,7 @@
                             <button class="orbit-item p-jupiter" onclick="App.revealPlanet('Jupiter adalah planet terbesar di tata surya. Tapi ternyata, ada hal yang lebih besar dari ukurannya, rasa tenang setiap kali ada dde.', this)"><div class="orbit-inner-graphic"><img src="planet6.png" loading="lazy"><span class="orbit-label">Jupiter</span></div></button>
                             <button class="orbit-item p-saturn" onclick="App.revealPlanet('Saturnus punya cincin yang indah karena sesuatu yang mengelilinginya. Mungkin memang begitu cara semesta bekerja hal yang tepat bisa membuat seseorang terlihat jauh lebih berarti.', this)"><div class="orbit-inner-graphic"><img src="planet10.png" loading="lazy"><span class="orbit-label">Saturnus</span></div></button>
                             <button class="orbit-item p-uranus" onclick="App.revealPlanet('Uranus berputar dengan cara yang berbeda dari kebanyakan planet. Mungkin itu sebabnya aku suka ade, tidak semua yang berbeda perlu dibuat serupa.', this)"><div class="orbit-inner-graphic"><img src="planet2.png" loading="lazy"><span class="orbit-label">Uranus</span></div></button>
-                            <button class="orbit-item p-neptune" onclick="App.revealPlanet('Neptunus begitu jauh dari matahari, tapi tetap punya tempat dalam tata surya. Jadi, kalau suatu hari jarak menjadi masalah, semoga dde ingat bahwa jauh tidak selalu berarti hilang.', this)"><div class="orbit-inner-graphic"><img src="planet7.png" loading="lazy"><span class="orbit-label">Neptunus</span></div></button>
+                            <button class="orbit-item p-neptune" onclick="App.revealPlanet('Neptunus begitu jauh dari matahari, tapi tetap punya tempat dalam tata surya. Jadi, kalau suatu hari jarak menjadi masalah, semoga dde ingat bahwa jauh tidak selalu berarti hilang.', this)"><div class="orbit-inner-graphic"><img src="planet7.png" loading="lazy"><span class="orbit-label">Neptune</span></div></button>
                         </div>
                     </div>
                     <!-- Kotak Pesan Planet diposisikan aman di bawah tata surya -->
@@ -660,7 +660,7 @@
                 document.getElementById('gallery-preview').classList.add('active');
                 history.pushState({ modal: 'preview' }, '');
             }
-            function closePhotoPreview() { document.getElementById('gallery-preview').classList.remove('active'); }
+            function closePhotoPreview() { document.getElementById('gallery-preview').classList.add('active'); }
 
             function toggleClosingBox(show) {
                 const box = document.getElementById('closing-box');
